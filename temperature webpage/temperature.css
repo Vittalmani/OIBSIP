@@ -1,0 +1,47 @@
+body{
+    color:black;
+    background-image:url("graph.jpg");
+    padding : 20px;
+    text-align: center;
+    margin-top:150px;
+    }
+.converter h3{
+    padding: 20PX;
+    background-color: rgb(176, 176, 184);
+    font-size : 60px;
+}
+.converter img{
+    width: 30%;
+
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.temp h1{
+    padding: 20px;
+}
+input{
+    font-size: 30px;
+    text-align: center;
+padding:20px;
+padding-right: 100px;
+padding-left: 100px;
+}
+#result{
+    font-size: 50px;
+    padding: 20px;
+    margin: 2px;
+    border: 40px;
+   
+}
+button{
+    border-radius: 15PX;
+    background-color: black;
+}
+I{
+    font-size: 25PX;
+    color: rgb(255, 255, 255);
+}

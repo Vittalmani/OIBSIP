@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>TEMPERATURE</title>
+    <link rel="stylesheet" href="temperature.css">
+    <script src="temperature.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="converter">
+
+            <img src="Temp-converter.jpg">
+            <h3>Temperature Converter</h3>
+        </div>
+        <div class="temp">
+            <input type="radio" value="fahrenheit" name="temp" id="fahrenheit">
+            <h1>FAHRENHEIT</h1>
+            <input type="radio" value="celsius" name="temp" id="celsius">
+            <h1>CELSIUS</h1>
+            <br><br>
+        </div>
+        <div>
+            <input type="text" id="c" /> <br><br>
+            <button class="btn btn-primary" onclick="convert()"><I>CONVERT</I></button>
+        </div>
+        <br>
+    
+    <div id="result">
+    </div>
+</body>
+
+</html>
